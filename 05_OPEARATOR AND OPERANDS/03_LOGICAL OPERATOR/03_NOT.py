@@ -1,0 +1,1 @@
+print(not(4>6 and 9<8))
