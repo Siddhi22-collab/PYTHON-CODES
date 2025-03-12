@@ -1,0 +1,2 @@
+marks=80
+print("YOU WILL SCORE BEST IN BOARD") if marks>=80 else print("YOU WILL SCORE AVERAGE IN BOARD")
