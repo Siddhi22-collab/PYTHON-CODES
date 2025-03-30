@@ -1,0 +1,3 @@
+#WRITE A PROGRAM TO WRITE FIRST 20 NUMBER AND THEIR SQUARED NUMBER
+for i in range (1,21):
+    print(i,i*i)
