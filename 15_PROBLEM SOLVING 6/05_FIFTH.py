@@ -1,0 +1,3 @@
+#WRITE A PROGRAM TO CHECK IF EVERY WORD IN A STRING BEGIND=S WITH A CAPITAL LETTER
+A=input("Enter anything here:")
+print(A.istitle())
