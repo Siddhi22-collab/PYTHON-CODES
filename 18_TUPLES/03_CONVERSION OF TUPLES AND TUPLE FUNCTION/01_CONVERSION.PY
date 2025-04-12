@@ -1,0 +1,7 @@
+A=("apple","banana","chiku","mango")
+A=list(A)
+print("After Conversion", type(A))
+A.append("Straberry")
+print(A)
+A=tuple(A)
+print(type(A))
