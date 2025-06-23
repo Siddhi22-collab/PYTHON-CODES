@@ -1,0 +1,3 @@
+s = "I love Java"
+s = s.replace("Java", "Python")
+print(s)
