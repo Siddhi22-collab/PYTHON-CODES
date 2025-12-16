@@ -7,6 +7,6 @@ def selection_sort(arr):
                 min_idx = j
         arr[i], arr[min_idx] = arr[min_idx], arr[i]
 
-arr = [64, 25, 12, 22, 11]
+arr = [64, 25, 12, 299, 118888]
 selection_sort(arr)
 print(arr)
