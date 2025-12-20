@@ -11,4 +11,4 @@ def bfs(graph, start):
             visited.add(node)
             queue.extend(graph[node])
 
-bfs(graph, 0)
+
