@@ -8,3 +8,8 @@ while i < num:
     i += 1
 else:
     print("Prime Number")
+
+
+
+
+
