@@ -12,3 +12,5 @@ print("\n")
 # loop until the longer list stops
 for i,j in itertools.zip_longest(list_1,list_2):
     print(i,j)
+
+    
