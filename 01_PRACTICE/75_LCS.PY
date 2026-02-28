@@ -6,6 +6,7 @@ def lcs(X, Y):
     for i in range(m+1):
         for j in range(n+1):
             if i == 0 or j == 0:
+            
                 dp[i][j] = 0
             elif X[i-1] == Y[j-1]:
                 dp[i][j] = 1 + dp[i-1][j-1]
@@ -16,3 +17,8 @@ def lcs(X, Y):
 
 # Example
 print(lcs("AGGTAB", "GXTXAYB"))
+
+
+if __name__ == "__main__":    X = "AGGTAB"
+Y = "GXTXAYB"               
+    print("Length of LCS is ", lcs(X, Y))           
