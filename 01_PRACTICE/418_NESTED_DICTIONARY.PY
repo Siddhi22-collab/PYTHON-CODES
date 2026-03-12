@@ -1,7 +1,7 @@
 
 students = {
     "Siddhi": {"age": 22, "course": "MCA"},
-    "Rahul": {"age": 23, "course": "BCA"},
+    "Gargie": {"age": 23, "course": "BCA"},
     "Anita": {"age": 21, "course": "BSc"}
 }
 
