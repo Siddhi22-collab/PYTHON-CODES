@@ -1,0 +1,15 @@
+import pandas as pd
+sales=pd.Series(data=[100,200,300,400,500],index=['Mon','Tue','Wed','Thu','Fri'])
+
+print(sales)
+print(sales.name)
+print(sales.index)
+print(sales.values)
+print(sales.dtype)
+print(sales.shape)
+print(sales.size)
+print(sales.ndim)
+print(sales.axes)
+print(sales.empty)
+print(sales.head(4))
+print(sales.tail(2))
