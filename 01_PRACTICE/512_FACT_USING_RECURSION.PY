@@ -1,4 +1,4 @@
-# Program to find factorial using recursion
+
 
 def factorial(n):
     if n < 0:
